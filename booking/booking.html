@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="booking.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <p id="hotelname">Rhodes Island Hotel</p>
+        <p id="booking"><a href="../booking/booking.html">Book Now</a></p>
+        <p id="homepage"><a href="../homepage/index.html">Home Page</a></p>
+    </div>
+   <nav>
+        <p id="about"><a href="../about/about.html">About</a></p>
+        <p id="rooms"><a href="../rooms/rooms.html">Rooms</a></p>
+        <p id="localarea"><a href="../localarea/localarea.html">Local Area</a></p>
+        <p id="reviews"><a href="../reviews/reviews.html">Reviews</a></p>
+   </nav>
+
+   <div class="book">
+        <h1>Choose your options</h1>
+        <form>
+            <label for="rooms" id="roomslabel">Choose your room:</label>
+            <select id="roomss" name="rooms">
+                <option value="Room 1">Room 1</option>
+                <option value="Room 2">Room 2</option>
+                <option value="room 3">room 3</option>
+            </select>
+
+            <label foor="date" id="dateh1">Choose which date you want to book the room:</label>
+            <input type="date" id="date" name="arrivaldate" value="2022-06-02">
+
+            <label for="name" id="nameh1">Enter your first and surname:</label>
+            <input type="text" id="name" name="customername">
+
+            <label for="email" id="emailh1">Enter your email:</label>
+            <input type="email" id="email" name="customeremail">
+            <input type="submit" value="Submit" id="submit">
+        </form>
+   </div>
+</body>
+</html>
+
